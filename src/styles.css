@@ -1,6 +1,47 @@
 /* You can add global styles to this file, and also import other style files */
 .color-menu {
-    background: #7A8EE7;
+    background: #69D2E7;
     color: #55509E;
     font-size:30px;
+}
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #69D2E7;
+    z-index: 9999;
+    border:0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: black !important;
+    font-weight: bold;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #f4511e !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+
+.logo {
+    font-size:200px;
+}
+
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+        text-align: center;
+        margin:250px 0;
+    }
+}
+
+colores {
+    background: #FE4365, #FC9D9A, #F9CDAD, #C8C8A9, #83AF9B, #41F28E, #B3BCF2, #3E6EA5;
 }
